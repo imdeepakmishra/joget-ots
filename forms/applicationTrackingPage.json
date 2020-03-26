@@ -8,7 +8,6 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "",
                         "id": "uanNo",
                         "label": "UAN No.",
                         "maxlength": "",
@@ -24,7 +23,7 @@
                                 "custom-regex": "^(ABCD1234)",
                                 "custom-regex-casesensitive": "true",
                                 "mandatory": "true",
-                                "message": "Invalid Password",
+                                "message": "Invalid UAN number entered",
                                 "type": "custom"
                             }
                         },
