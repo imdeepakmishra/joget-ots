@@ -250,7 +250,7 @@
                 "host": "smtp.gmail.com",
                 "icsAttachement": "",
                 "isHtml": "",
-                "message": "Dear Customer,\n\nYour UAN number is abcd1234.\n\nPlease call on 18002586161 to report if this login was not authorized by you.\n\nWarm Regards,\nNSEIT",
+                "message": "Dear Customer,\n\nYour UAN number is ABCD1234.\n\nPlease call on 18002586161 to report if this login was not authorized by you.\n\nWarm Regards,\nNSEIT",
                 "password": "%%%%oBXpxvbaNws062rwd0TAha3EfmRBS5nT%%%%",
                 "port": "587",
                 "security": "TLS",
