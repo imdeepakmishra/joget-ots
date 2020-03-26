@@ -15,7 +15,7 @@
                             "permissionHidden": "",
                             "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
                             "placeholder": "&nbsp Firstname  Middlename  Lastname",
-                            "readonly": "true",
+                            "readonly": "",
                             "readonlyLabel": "",
                             "size": "27",
                             "storeNumeric": "",
@@ -30,7 +30,7 @@
                                     "type": "custom"
                                 }
                             },
-                            "value": "#form.login_page.applicant_name#",
+                            "value": "",
                             "workflowVariable": ""
                         }
                     },
@@ -39,7 +39,7 @@
                         "properties": {
                             "id": "customerId",
                             "label": "Customer ID",
-                            "maxlength": "5",
+                            "maxlength": "8",
                             "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
@@ -50,8 +50,8 @@
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
                                     "mandatory": "true",
-                                    "message": "Invalid Customer Id",
-                                    "type": "numeric"
+                                    "message": "* invalid customer id",
+                                    "type": "alphanumeric"
                                 }
                             },
                             "value": "",
@@ -73,9 +73,11 @@
                             "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
+                                    "custom-regex": "^[0-9]{10}$",
+                                    "custom-regex-casesensitive": "",
                                     "mandatory": "true",
-                                    "message": "",
-                                    "type": "numeric"
+                                    "message": "* invalid no",
+                                    "type": "custom"
                                 }
                             },
                             "value": "",
@@ -97,9 +99,61 @@
                             "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
+                                    "custom-regex": "^[0-9]{10}$",
+                                    "custom-regex-casesensitive": "",
                                     "mandatory": "true",
-                                    "message": "Invalid No.",
-                                    "type": "numeric"
+                                    "message": "* invalid no",
+                                    "type": "custom"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "id": "email1",
+                            "label": "Email Id",
+                            "maxlength": "",
+                            "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "25",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "* invalid email",
+                                    "type": "email"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "id": "registeredEmail1",
+                            "label": "Registered Email Id",
+                            "maxlength": "",
+                            "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "25",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "* invalid email",
+                                    "type": "email"
                                 }
                             },
                             "value": "",
@@ -145,8 +199,8 @@
                                 "properties": {
                                     "custom-regex": "^[a-zA-Z]+$",
                                     "custom-regex-casesensitive": "",
-                                    "mandatory": "",
-                                    "message": "",
+                                    "mandatory": "true",
+                                    "message": "* invalid city",
                                     "type": "custom"
                                 }
                             },
@@ -164,7 +218,7 @@
                             "options": [
                                 {
                                     "grouping": "",
-                                    "label": "",
+                                    "label": "- -Select- -",
                                     "value": ""
                                 },
                                 {
@@ -196,8 +250,12 @@
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "* please select form the state",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -216,33 +274,13 @@
                             "storeNumeric": "true",
                             "style": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "registeredEmail1",
-                            "label": "Registered Email Id",
-                            "maxlength": "",
-                            "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "25",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
+                                    "custom-regex": "^[0-9]{6,6}$",
+                                    "custom-regex-casesensitive": "",
                                     "mandatory": "true",
-                                    "message": "Invalid Email",
-                                    "type": "email"
+                                    "message": "* invalid pin code",
+                                    "type": "custom"
                                 }
                             },
                             "value": "",
@@ -344,7 +382,7 @@
                                     "custom-regex": "([A-Za-z])+( [A-Za-z]+)+( [A-Za-z]+)",
                                     "custom-regex-casesensitive": "true",
                                     "mandatory": "true",
-                                    "message": "Invalid Applicant's Name",
+                                    "message": "* invalid applicant name",
                                     "type": "custom"
                                 }
                             },
@@ -355,9 +393,8 @@
                     {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
-                            "encryption": "",
                             "id": "registeredMobileNo2",
-                            "label": "Co-applicant's Mobile No",
+                            "label": "Co-applicant's Contact No",
                             "maxlength": "10",
                             "placeholder": "",
                             "readonly": "",
@@ -368,10 +405,33 @@
                             "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
-                                    "mandatory": "",
-                                    "message": "Invalid No.",
-                                    "type": "numeric"
+                                    "custom-regex": "^[0-9]{10}$",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "true",
+                                    "message": "* invalid no.",
+                                    "type": "custom"
                                 }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "id": "registeredEmail2",
+                            "label": "Co-applicant's Email Id",
+                            "maxlength": "",
+                            "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -390,8 +450,8 @@
                             "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
-                                    "mandatory": "",
-                                    "message": "",
+                                    "mandatory": "true",
+                                    "message": "* invalid address",
                                     "type": ""
                                 }
                             },
@@ -402,7 +462,6 @@
                     {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
-                            "encryption": "",
                             "id": "city2",
                             "label": "City",
                             "maxlength": "",
@@ -417,8 +476,8 @@
                                 "properties": {
                                     "custom-regex": "^[a-zA-Z]+$",
                                     "custom-regex-casesensitive": "",
-                                    "mandatory": "",
-                                    "message": "",
+                                    "mandatory": "true",
+                                    "message": "* invalid city entered",
                                     "type": "custom"
                                 }
                             },
@@ -436,7 +495,7 @@
                             "options": [
                                 {
                                     "grouping": "",
-                                    "label": "",
+                                    "label": "- -Select- -",
                                     "value": ""
                                 },
                                 {
@@ -468,8 +527,12 @@
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "* please state form the list",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -478,7 +541,6 @@
                     {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
-                            "encryption": "",
                             "id": "pinCode2",
                             "label": "Pin Code",
                             "maxlength": "6",
@@ -489,33 +551,13 @@
                             "storeNumeric": "true",
                             "style": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "registeredEmail2",
-                            "label": "Co-applicant's Email Id",
-                            "maxlength": "",
-                            "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "25",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
+                                    "custom-regex": "^[0-9]{6,6}$",
+                                    "custom-regex-casesensitive": "",
                                     "mandatory": "true",
-                                    "message": "Invalid Email",
-                                    "type": "email"
+                                    "message": "* invalid pin code",
+                                    "type": "custom"
                                 }
                             },
                             "value": "",
@@ -625,15 +667,6 @@
                             }
                         },
                         {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
-                            "properties": {
-                                "autoPopulate": "",
-                                "id": "field28",
-                                "label": "",
-                                "value": "<p>\r\n    <span style='color: red, margin-left: 15px'>\r\n    Mention the date on or before which you will make the payment.\r\n    <\/span>\r\n<\/p>"
-                            }
-                        },
-                        {
                             "className": "org.joget.apps.form.lib.DatePicker",
                             "properties": {
                                 "allowManual": "true",
@@ -662,6 +695,15 @@
                             }
                         },
                         {
+                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "properties": {
+                                "autoPopulate": "",
+                                "id": "field28",
+                                "label": "",
+                                "value": "<p>\r\n    <span style='color: red, margin-left: 15px'>\r\n    Mention the date on or before which you will make the payment.\r\n    <\/span>\r\n<\/p>"
+                            }
+                        },
+                        {
                             "className": "org.joget.apps.form.lib.TextField",
                             "properties": {
                                 "id": "loanAmount",
@@ -680,8 +722,8 @@
                                 "validator": {
                                     "className": "org.joget.apps.form.lib.DefaultValidator",
                                     "properties": {
-                                        "mandatory": "",
-                                        "message": "",
+                                        "mandatory": "true",
+                                        "message": "* invalid loan amount",
                                         "type": "numeric"
                                     }
                                 },
@@ -765,8 +807,8 @@
                                 "validator": {
                                     "className": "org.joget.apps.form.lib.DefaultValidator",
                                     "properties": {
-                                        "mandatory": "",
-                                        "message": "Please check the box",
+                                        "mandatory": "true",
+                                        "message": "* please check the box",
                                         "type": ""
                                     }
                                 },
@@ -792,8 +834,8 @@
                                 "validator": {
                                     "className": "org.joget.apps.form.lib.DefaultValidator",
                                     "properties": {
-                                        "mandatory": "",
-                                        "message": "",
+                                        "mandatory": "true",
+                                        "message": "* invalid date",
                                         "type": ""
                                     }
                                 },
