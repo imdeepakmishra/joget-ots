@@ -1,0 +1,46 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "applicationTrackingPage",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "disableResponsive": "",
+    "filters": [],
+    "hidePageSize": "",
+    "id": "apptrack",
+    "name": "Application Tracking",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "10",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "0",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
+    "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
+    "showPageSizeSelector": "true",
+    "useSession": ""
+}

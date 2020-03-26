@@ -1,0 +1,230 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "personalDetails"}
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_25",
+            "label": "Total Amount to be paid",
+            "name": "paidAmount",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_24",
+            "label": "State",
+            "name": "state",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_23",
+            "label": "State",
+            "name": "state2",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_22",
+            "label": "Remarks",
+            "name": "reamarks",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_21",
+            "label": "Registered Mobile No",
+            "name": "registeredMobileNo1",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_20",
+            "label": "Registered Email Id",
+            "name": "registeredEmail1",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_19",
+            "label": "Pin Code",
+            "name": "pinCode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_18",
+            "label": "Pin Code",
+            "name": "pinCode2",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_17",
+            "label": "NPA A/C No.",
+            "name": "npa",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_16",
+            "label": "MF No.",
+            "name": "mfno",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_15",
+            "label": "Loan Type",
+            "name": "loanType",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_14",
+            "label": "Loan Issued Date",
+            "name": "loanIssuedDate",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_13",
+            "label": "Loan Defaulted Reason",
+            "name": "reason",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_12",
+            "label": "Loan Amount",
+            "name": "loanAmount",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_11",
+            "label": "Is there a co-applicant:",
+            "name": "addressAvailable",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_10",
+            "label": "Date",
+            "name": "date",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_9",
+            "label": "Customer ID",
+            "name": "customerId",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_8",
+            "label": "Contact No",
+            "name": "contactNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "Co-Applicant's Name",
+            "name": "coapplicant_name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Address",
+            "name": "address",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Address",
+            "name": "address2",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Applicant's Name",
+            "name": "applicant_name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "City",
+            "name": "city2",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "City",
+            "name": "city",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Co-applicant's Email Id",
+            "name": "registeredEmail2",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "Co-applicant's Mobile No",
+            "name": "registeredMobileNo2",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "filters": [],
+    "id": "list_personalDetails",
+    "name": "List - Personal Details",
+    "order": "",
+    "orderBy": "",
+    "pageSize": 0,
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}
