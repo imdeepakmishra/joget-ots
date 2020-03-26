@@ -42,13 +42,14 @@
                         "readonlyLabel": "",
                         "size": "",
                         "validator": {
-                            "className": "org.joget.plugin.enterprise.PasswordValidator",
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
-                                "confirmPasswordField": "password",
-                                "mandatory": "true"
+                                "mandatory": "true",
+                                "message": "Invalid Password",
+                                "type": "alphanumeric"
                             }
                         },
-                        "value": "%%%%0HgGRDNDNgnx1wohdh6g/g==%%%%"
+                        "value": ""
                     }
                 }
             ],
