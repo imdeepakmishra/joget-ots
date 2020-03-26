@@ -1,8 +1,7 @@
 <appDefinition>
-   <appId>ots</appId>
    <id>ots</id>
-   <version>6</version>
-   <name>One Time Settlement</name>
+   <version>5</version>
+   <name>One Time Settlement </name>
    <packageDefinitionList/>
    <formDefinitionList/>
    <userviewDefinitionList/>
@@ -12,6 +11,8 @@
    <environmentVariableList>
       <environmentVariable>
          <id>username</id>
+         <appId>ots</appId>
+         <appVersion>5</appVersion>
          <value>import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

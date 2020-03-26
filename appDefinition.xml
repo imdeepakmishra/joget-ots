@@ -1,9 +1,183 @@
 <appDefinition>
-   <appId>ots</appId>
    <id>ots</id>
-   <version>6</version>
-   <name>One Time Settlement</name>
-   <packageDefinitionList/>
+   <version>5</version>
+   <name>One Time Settlement </name>
+   <packageDefinitionList>
+      <packageDefinition>
+         <appId>ots</appId>
+         <id>ots</id>
+         <version>7</version>
+         <name>One Time Settlement </name>
+         <packageActivityFormMap>
+            <entry>
+               <string>process1::activity8</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity8</activityDefId>
+                  <formId>otszonal</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity7</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity7</activityDefId>
+                  <formId>otsregionalrec</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity6</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity6</activityDefId>
+                  <formId>otsregionalrec</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity5</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity5</activityDefId>
+                  <formId>otsrecovery</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::otsform</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>otsform</activityDefId>
+                  <formId>personalDetails</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity11</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity11</activityDefId>
+                  <formId>otsbcc</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity10</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity10</activityDefId>
+                  <formId>otsbcc</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::otsformresubmitted</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>otsformresubmitted</activityDefId>
+                  <formId>otsrecovery</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity9</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity9</activityDefId>
+                  <formId>otszonal</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+         </packageActivityFormMap>
+         <packageActivityPluginMap>
+            <entry>
+               <string>process1::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.EmailTool</pluginName>
+                  <pluginProperties>{&quot;toSpecific&quot;:&quot;gaminBot3813@gmail.com&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;cc&quot;:&quot;deepakm@nseit.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Your form has been submitted&quot;,&quot;message&quot;:&quot;Welcome to joget&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;from&quot;:&quot;gaminbot3813@gmail.com&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;port&quot;:&quot;487&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;username&quot;:&quot;gaminbot3813@gmail.com&quot;,&quot;password&quot;:&quot;#Deepak3813#&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;files&quot;:[],&quot;icsAttachement&quot;:&quot;&quot;}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+         </packageActivityPluginMap>
+         <packageParticipantMap>
+            <entry>
+               <string>process1::zonalrecovery</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>zonalrecovery</participantId>
+                  <type>user</type>
+                  <value>david</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process1::recovery</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>recovery</participantId>
+                  <type>user</type>
+                  <value>cat</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process1::regionalrecovery</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>regionalrecovery</participantId>
+                  <type>user</type>
+                  <value>clark</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process1::user</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>user</participantId>
+                  <type>user</type>
+                  <value>admin</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process1::bcc</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>bcc</participantId>
+                  <type>user</type>
+                  <value>etta</value>
+               </packageParticipant>
+            </entry>
+         </packageParticipantMap>
+      </packageDefinition>
+   </packageDefinitionList>
    <formDefinitionList/>
    <userviewDefinitionList/>
    <datalistDefinitionList/>
@@ -15,7 +189,7 @@
       <appResource>
          <id>background.jpg</id>
          <appId>ots</appId>
-         <appVersion>1</appVersion>
+         <appVersion>5</appVersion>
          <filesize>564594</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
@@ -23,7 +197,7 @@
       <appResource>
          <id>hero-image-2.jpg</id>
          <appId>ots</appId>
-         <appVersion>1</appVersion>
+         <appVersion>5</appVersion>
          <filesize>66787</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.hero-image-2.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;,&quot;properties&quot;:{}}}</permissionProperties>
@@ -31,7 +205,7 @@
       <appResource>
          <id>loan.png</id>
          <appId>ots</appId>
-         <appVersion>1</appVersion>
+         <appVersion>5</appVersion>
          <filesize>16169</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
@@ -39,7 +213,7 @@
       <appResource>
          <id>logo_white.png</id>
          <appId>ots</appId>
-         <appVersion>1</appVersion>
+         <appVersion>5</appVersion>
          <filesize>7192</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
@@ -47,7 +221,7 @@
       <appResource>
          <id>logo.jpg</id>
          <appId>ots</appId>
-         <appVersion>1</appVersion>
+         <appVersion>5</appVersion>
          <filesize>1885</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
@@ -55,7 +229,7 @@
       <appResource>
          <id>myscript.js</id>
          <appId>ots</appId>
-         <appVersion>1</appVersion>
+         <appVersion>5</appVersion>
          <filesize>322</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.myscript.js#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;,&quot;properties&quot;:{}}}</permissionProperties>
@@ -63,7 +237,7 @@
       <appResource>
          <id>rupee.png</id>
          <appId>ots</appId>
-         <appVersion>1</appVersion>
+         <appVersion>5</appVersion>
          <filesize>30898</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
@@ -71,7 +245,7 @@
       <appResource>
          <id>side-bar-image.png</id>
          <appId>ots</appId>
-         <appVersion>1</appVersion>
+         <appVersion>5</appVersion>
          <filesize>622516</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
