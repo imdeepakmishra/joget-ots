@@ -97,7 +97,7 @@
                     "className": "org.joget.apps.userview.lib.UserPermission",
                     "properties": {
                         "allowedUsernames": "cat;clark;david;etta",
-                        "orgId": ""
+                        "orgId": "ORG-001"
                     }
                 }
             }
