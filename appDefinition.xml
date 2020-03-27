@@ -91,6 +91,8 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>activity10</activityDefId>
+                  <formId>otsBcc</formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -113,8 +115,8 @@
                   <activityDefId>activity9</activityDefId>
                   <formId>otsZonal</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
+                  <autoContinue>true</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
          </packageActivityFormMap>
