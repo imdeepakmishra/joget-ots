@@ -180,6 +180,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process2::process3_user</string>
+               <packageParticipant>
+                  <processDefId>process2</processDefId>
+                  <participantId>process3_user</participantId>
+                  <type>user</type>
+                  <value>admin</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process1::regionalrecovery</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
