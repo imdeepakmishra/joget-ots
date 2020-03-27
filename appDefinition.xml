@@ -261,6 +261,14 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>process1::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process1::emailUAN</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
