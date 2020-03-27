@@ -138,7 +138,6 @@
                   <processDefId>process1</processDefId>
                   <activityDefId>tool14</activityDefId>
                   <pluginName>org.joget.apps.app.lib.EmailTool</pluginName>
-                  <pluginProperties>{&quot;toSpecific&quot;:&quot;deepakm@nseit.com&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;cc&quot;:&quot;deepakmishra3813@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;subject&quot;:&quot;UAN&quot;,&quot;message&quot;:&quot;Dear Customer,\n\nYour UAN number is ABCD1234. &lt;br&gt;\n\nPlease call on 18002586161 to report if this login was not authorized by you. &lt;br&gt;\n\nWarm Regards, &lt;br&gt;\nNSEIT&quot;,&quot;isHtml&quot;:&quot;true&quot;,&quot;from&quot;:&quot;gaminbot3813@gmail.com&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;port&quot;:&quot;465&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;username&quot;:&quot;gaminbot3813@gmail.com&quot;,&quot;password&quot;:&quot;#Deepak3813#&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;files&quot;:[],&quot;icsAttachement&quot;:&quot;&quot;}</pluginProperties>
                </packageActivityPlugin>
             </entry>
          </packageActivityPluginMap>
