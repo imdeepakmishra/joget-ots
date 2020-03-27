@@ -78,13 +78,13 @@
             ],
             "properties": {
                 "comment": "",
-                "hide": "",
+                "hide": "yes",
                 "id": "category-5802682AAFB048A1AF4663F33A079C3E",
-                "label": "Me",
+                "label": "Menu",
                 "permission": {
                     "className": "org.joget.apps.userview.lib.UserPermission",
                     "properties": {
-                        "allowedUsernames": "admin;cat;clark;david;etta",
+                        "allowedUsernames": "",
                         "orgId": ""
                     }
                 }
