@@ -157,7 +157,7 @@
                <packageActivityForm>
                   <processDefId>process2</processDefId>
                   <activityDefId>activity6</activityDefId>
-                  <formId>otsRecovery</formId>
+                  <formId>otsRegional</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
