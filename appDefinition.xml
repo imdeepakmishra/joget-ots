@@ -87,6 +87,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process1::activity11</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity11</activityDefId>
+                  <formId>otsBcc</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::activity10</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
