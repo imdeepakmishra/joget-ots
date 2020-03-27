@@ -32,7 +32,7 @@
                         "redirectUrlAfterComplete": "",
                         "runProcessDirectly": "Yes",
                         "runProcessSubmitLabel": "Submit",
-                        "showInPopupDialog": "Yes",
+                        "showInPopupDialog": "",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
