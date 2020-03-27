@@ -137,7 +137,7 @@
                   <activityDefId>activity10</activityDefId>
                   <formId>otsBcc</formId>
                   <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
+                  <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
@@ -148,7 +148,7 @@
                   <activityDefId>activity11</activityDefId>
                   <formId>otsBcc</formId>
                   <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
+                  <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
@@ -236,7 +236,7 @@
                   <activityDefId>activity9</activityDefId>
                   <formId>otsZonal</formId>
                   <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
+                  <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
