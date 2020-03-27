@@ -41,7 +41,7 @@
             "comment": "",
             "hide": "",
             "id": "category-B708435DC5E24A35B301D7E89226BAF6",
-            "label": "Inbox",
+            "label": "Me",
             "permission": {
                 "className": "org.joget.apps.userview.lib.UserPermission",
                 "properties": {
