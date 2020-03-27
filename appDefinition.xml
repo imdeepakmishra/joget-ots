@@ -14,6 +14,8 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>otsform</activityDefId>
+                  <formId>personalDetails</formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
