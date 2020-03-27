@@ -17,7 +17,7 @@
             {
                 "className": "org.joget.apps.userview.lib.RunProcess",
                 "properties": {
-                    "customId": "personalDetails",
+                    "customId": "Login",
                     "enableOffline": "",
                     "fieldPassover": "",
                     "fieldPassoverMethod": "append",
