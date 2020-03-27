@@ -150,7 +150,7 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "mandatory": "true",
-                                "message": "Invalid Email",
+                                "message": "* invalid email",
                                 "type": "email"
                             }
                         },
@@ -171,7 +171,7 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "mandatory": "true",
-                                "message": "Invalid Password Type",
+                                "message": "* invalid password type",
                                 "type": "alphanumeric"
                             }
                         },
