@@ -54,39 +54,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::otsform</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>otsform</activityDefId>
-                  <formId>personalDetails</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process2::appTrackPage</string>
-               <packageActivityForm>
-                  <processDefId>process2</processDefId>
-                  <activityDefId>appTrackPage</activityDefId>
-                  <formId>applicationTrackingPage</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process1::loginapage</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>loginapage</activityDefId>
-                  <formId>login</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::appTrackPage</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -120,6 +87,50 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process1::activity9</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity9</activityDefId>
+                  <formId>otsZonal</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>true</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::otsform</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>otsform</activityDefId>
+                  <formId>personalDetails</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>true</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process2::appTrackPage</string>
+               <packageActivityForm>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>appTrackPage</activityDefId>
+                  <formId>applicationTrackingPage</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::loginapage</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>loginapage</activityDefId>
+                  <formId>login</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>true</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::otsformresubmitted</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -131,14 +142,14 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::activity9</string>
+               <string>process2::otsform</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>activity9</activityDefId>
-                  <formId>otsZonal</formId>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>otsform</activityDefId>
+                  <formId>personalDetails</formId>
                   <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
          </packageActivityFormMap>
