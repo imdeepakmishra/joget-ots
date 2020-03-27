@@ -134,6 +134,15 @@
          <packageActivityPluginMap/>
          <packageParticipantMap>
             <entry>
+               <string>process1::zonalrecovery</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>zonalrecovery</participantId>
+                  <type>user</type>
+                  <value>david</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process1::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
