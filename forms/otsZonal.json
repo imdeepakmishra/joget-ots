@@ -8,7 +8,7 @@
                 "elements": [{
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
-                        "formDefId": "otsregionalrec",
+                        "formDefId": "otsRegional",
                         "id": "field3",
                         "label": "",
                         "loadBinder": {
@@ -27,7 +27,12 @@
                         "subFormParentId": ""
                     }
                 }],
-                "properties": {"width": "100%"}
+                "properties": {
+                    "customWidth": "",
+                    "horizontal": "",
+                    "label": "",
+                    "width": "100%"
+                }
             }],
             "properties": {
                 "comment": "",
