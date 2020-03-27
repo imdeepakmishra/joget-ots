@@ -8,61 +8,7 @@
    <datalistDefinitionList/>
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
-   <environmentVariableList>
-      <environmentVariable>
-         <id>username</id>
-         <appId>ots</appId>
-         <appVersion>1</appVersion>
-         <value>import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import javax.sql.DataSource;
-import org.joget.apps.app.service.AppUtil;
-import org.joget.apps.form.model.Element;
-import org.joget.apps.form.model.FormData;
-import org.joget.apps.form.model.FormRow;
-import org.joget.apps.form.model.FormRowSet;
-import org.joget.commons.util.LogUtil;
-
-//This script takes 2 parameters, the vendor username and the field data to retrieve
-if (variable != null &amp;&amp; !variable[0].isEmpty() &amp;&amp; fieldId != null &amp;&amp; !fieldId[0].isEmpty()) {
-
-    String var = variable[0];
-    String fId = &quot;c_&quot; + fieldId[0];
-    String result = &quot;&quot;;
-
-    Connection con = null;
-    try {
-        // retrieve connection from the default datasource
-        DataSource ds = (DataSource)AppUtil.getApplicationContext().getBean(&quot;setupDataSource&quot;);
-        con = ds.getConnection();
-      
-        // execute SQL query
-        if(!con.isClosed()) {
-            PreparedStatement stmt = con.prepareStatement(&quot;SELECT c_name, c_email, c_address, c_contact_number, c_vendor_user from app_fd_purchase_vendors where c_vendor_user = ?&quot;);
-            stmt.setObject(1, var);
-            ResultSet rs = stmt.executeQuery();
-            while (rs.next()) {
-                result = ((rs.getObject(fId) != null)?rs.getObject(fId).toString():&quot;&quot;);
-                break;
-            }
-        }
-    } catch(Exception e) {
-        LogUtil.error(&quot;Bean Shell Hash Var - getVendor&quot;, e, &quot;Error loading data&quot;);
-    } finally {
-        //always close the connection after used
-        try {
-            if(con != null) {
-                con.close();
-            }
-        } catch(SQLException e) {/* ignored */}
-    }
-    return result;
-}</value>
-         <remarks>Its will retireve username from different page</remarks>
-      </environmentVariable>
-   </environmentVariableList>
+   <environmentVariableList/>
    <messageList/>
    <resourceList/>
    <license>vfznDx/DoJN9aKaMo215Wqiv0nItzej4xkg9pWXuBvk5VQ7KDcvdQw==</license>
