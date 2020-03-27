@@ -143,6 +143,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process1::recovery</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>recovery</participantId>
+                  <type>user</type>
+                  <value>cat</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process2::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process2</processDefId>
