@@ -598,270 +598,263 @@
         },
         {
             "className": "org.joget.apps.form.model.Section",
-            "elements": [
-                {
-                    "className": "org.joget.apps.form.model.Column",
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.TextField",
-                            "properties": {
-                                "id": "npa",
-                                "label": "Loan A/C No.",
-                                "maxlength": "12",
-                                "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
-                                "placeholder": "",
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "size": "",
-                                "storeNumeric": "",
-                                "style": "",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "mandatory": "true",
-                                        "message": "Invalid A/C No.",
-                                        "type": "alphanumeric"
-                                    }
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "id": "loanType",
-                                "label": "Loan Type",
-                                "multiple": "",
-                                "options": [
-                                    {
-                                        "grouping": "",
-                                        "label": "- -Select- -",
-                                        "value": ""
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Corporate",
-                                        "value": "corporate"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "MSME",
-                                        "value": "msme"
-                                    }
-                                ],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "size": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.DatePicker",
-                            "properties": {
-                                "allowManual": "true",
-                                "currentDateAs": "maxDate",
-                                "dataFormat": "dd-mm-yyyy",
-                                "datePickerType": "",
-                                "endDateFieldId": "",
-                                "format": "dd-mm-yy",
-                                "id": "loanIssuedDate",
-                                "label": "Loan Issued Date",
-                                "placeholder": "",
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "startDateFieldId": "",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "mandatory": "true",
-                                        "message": "",
-                                        "type": ""
-                                    }
-                                },
-                                "value": "",
-                                "workflowVariable": "",
-                                "yearRange": "c-15:c+10"
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.TextField",
-                            "properties": {
-                                "id": "loanAmount",
-                                "label": "Loan Principle Amount",
-                                "maxlength": "10",
-                                "numOfDecimal": "2",
-                                "placeholder": "",
-                                "postfix": "",
-                                "prefix": "",
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "size": "",
-                                "storeNumeric": "true",
-                                "style": "us",
-                                "useThousandSeparator": "true",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "mandatory": "true",
-                                        "message": "* invalid loan amount",
-                                        "type": "numeric"
-                                    }
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.TextArea",
-                            "properties": {
-                                "cols": "10",
-                                "id": "reason",
-                                "label": "Loan Defaulted Reason",
-                                "placeholder": "",
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "rows": "5",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.TextField",
-                            "properties": {
-                                "id": "paidAmount",
-                                "label": "Total Amount to be paid",
-                                "maxlength": "10",
-                                "numOfDecimal": "2",
-                                "placeholder": "",
-                                "postfix": "",
-                                "prefix": "",
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "size": "",
-                                "storeNumeric": "true",
-                                "style": "us",
-                                "useThousandSeparator": "true",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "mandatory": "",
-                                        "message": "",
-                                        "type": "numeric"
-                                    }
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
-                            "properties": {
-                                "autoPopulate": "",
-                                "id": "paragraph",
-                                "label": "",
-                                "value": "<html>\n    <head>\n        <style>\n            p{\n                color: #3aa1f4;\n                margin:20px 15px;\n            }\n        <\/style>\n    <\/head>\n    <body>\n        <p>Total amount includes outstanding amount (with interest)+ the minimum interest ratefixed by bank on advances as per Directive UBD.No.DS.PCB.Cir.24 / 13.04.00 / 2002-03 dated October 29, 2002, from April 1, 2000 till \nthe date of final payment (if applicable). Also, processing fee of Rs. 5000/-\nhas to be paid on submission of form.<\/p>        \n    <\/body>\n<\/html>\n\n\n"
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "controlField": "",
-                                "id": "field9",
-                                "label": "",
-                                "options": [{
-                                    "grouping": "",
-                                    "label": "I am agreeing to opt for one time settlement and ready to pay all my outstanding payments along with the interests and other charges as mentioned above.",
-                                    "value": "value"
-                                }],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "permissionHidden": "",
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "mandatory": "true",
-                                        "message": "* please check the box",
-                                        "type": ""
-                                    }
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.DatePicker",
-                            "properties": {
-                                "allowManual": "true",
-                                "currentDateAs": "maxDate",
-                                "dataFormat": "dd-mm-yyyy",
-                                "datePickerType": "",
-                                "endDateFieldId": "",
-                                "format": "dd-mm-yy",
-                                "id": "date",
-                                "label": "Date",
-                                "placeholder": "",
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "startDateFieldId": "",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "mandatory": "true",
-                                        "message": "* invalid date",
-                                        "type": ""
-                                    }
-                                },
-                                "value": "",
-                                "workflowVariable": "",
-                                "yearRange": "c-15:c+10"
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.TextArea",
-                            "properties": {
-                                "cols": "10",
-                                "id": "reamarks",
-                                "label": "Remarks",
-                                "placeholder": "",
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "rows": "5",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "id": "npa",
+                            "label": "Loan A/C No.",
+                            "maxlength": "12",
+                            "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "Invalid A/C No.",
+                                    "type": "alphanumeric"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
                         }
-                    ],
-                    "properties": {"width": "49%"}
-                },
-                {
-                    "className": "org.joget.apps.form.model.Column",
-                    "elements": [],
-                    "properties": {"width": "49%"}
-                }
-            ],
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "loanType",
+                            "label": "Loan Type",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "- -Select- -",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Corporate",
+                                    "value": "corporate"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "MSME",
+                                    "value": "msme"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "true",
+                            "currentDateAs": "maxDate",
+                            "dataFormat": "dd-mm-yyyy",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "dd-mm-yy",
+                            "id": "loanIssuedDate",
+                            "label": "Loan Issued Date",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-15:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "id": "loanAmount",
+                            "label": "Loan Principle Amount",
+                            "maxlength": "10",
+                            "numOfDecimal": "2",
+                            "placeholder": "",
+                            "postfix": "",
+                            "prefix": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "true",
+                            "style": "us",
+                            "useThousandSeparator": "true",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "* invalid loan amount",
+                                    "type": "numeric"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextArea",
+                        "properties": {
+                            "cols": "10",
+                            "id": "reason",
+                            "label": "Loan Defaulted Reason",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "rows": "5",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "id": "paidAmount",
+                            "label": "Total Amount to be paid",
+                            "maxlength": "10",
+                            "numOfDecimal": "2",
+                            "placeholder": "",
+                            "postfix": "",
+                            "prefix": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "true",
+                            "style": "us",
+                            "useThousandSeparator": "true",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "",
+                                    "message": "",
+                                    "type": "numeric"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "paragraph",
+                            "label": "",
+                            "value": "<html>\n    <head>\n        <style>\n            p{\n                color: #3aa1f4;\n                margin:20px 15px;\n            }\n        <\/style>\n    <\/head>\n    <body>\n        <p>Total amount includes outstanding amount (with interest)+ the minimum interest ratefixed by bank on advances as per Directive UBD.No.DS.PCB.Cir.24 / 13.04.00 / 2002-03 dated October 29, 2002, from April 1, 2000 till \nthe date of final payment (if applicable). Also, processing fee of Rs. 5000/-\nhas to be paid on submission of form.<\/p>        \n    <\/body>\n<\/html>\n\n\n"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field9",
+                            "label": "",
+                            "options": [{
+                                "grouping": "",
+                                "label": "I am agreeing to opt for one time settlement and ready to pay all my outstanding payments along with the interests and other charges as mentioned above.",
+                                "value": "value"
+                            }],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "permissionHidden": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "* please check the box",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "true",
+                            "currentDateAs": "maxDate",
+                            "dataFormat": "dd-mm-yyyy",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "dd-mm-yy",
+                            "id": "date",
+                            "label": "Date",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "* invalid date",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-15:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextArea",
+                        "properties": {
+                            "cols": "10",
+                            "id": "reamarks",
+                            "label": "Remarks",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "rows": "5",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
             "properties": {
                 "comment": "",
                 "id": "section1",
