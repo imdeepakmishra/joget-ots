@@ -38,18 +38,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
-                    "properties": {
-                        "content": "<p>Something is here<\/p>",
-                        "customId": "",
-                        "enableOffline": "",
-                        "id": "BC59B7858D424E7DA8FE6C037BE40F14",
-                        "label": "HTML Page",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
                         "customId": "appTrack",
