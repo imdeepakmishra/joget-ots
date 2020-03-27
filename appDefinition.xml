@@ -23,6 +23,8 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>loginapage</activityDefId>
+                  <formId>login</formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
