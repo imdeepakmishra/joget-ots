@@ -49,7 +49,7 @@
                   <activityDefId>otsformresubmitted</activityDefId>
                   <formId>otsRecovery</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
