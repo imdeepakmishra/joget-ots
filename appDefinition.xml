@@ -195,7 +195,9 @@
    <environmentVariableList/>
    <messageList>
       <message>
-         <id>tooltip.personaldetails.loanissueddate_en_us</id>
+         <id>tooltip.personalDetails.loanIssuedDate_en_US</id>
+         <appId>ots</appId>
+         <appVersion>1</appVersion>
          <messageKey>tooltip.personalDetails.loanIssuedDate</messageKey>
          <locale>en_US</locale>
          <message>Mention the date on or before which you will make the payment.</message>
