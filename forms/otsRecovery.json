@@ -15,7 +15,7 @@
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
                         },
-                        "noframe": "true",
+                        "noframe": "",
                         "parentSubFormId": "",
                         "permissionHidden": "",
                         "readonly": "",
