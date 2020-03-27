@@ -49,11 +49,11 @@
                     "messageShowAfterComplete": "Your application has been submitted.",
                     "paramName": "",
                     "processDefId": "process2",
-                    "redirectTarget": "",
+                    "redirectTarget": "top",
                     "redirectUrlAfterComplete": "",
-                    "runProcessDirectly": "",
+                    "runProcessDirectly": "Yes",
                     "runProcessSubmitLabel": "Submit",
-                    "showInPopupDialog": "Yes",
+                    "showInPopupDialog": "",
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": ""
                 }
