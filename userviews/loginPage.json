@@ -28,132 +28,6 @@
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [{
-                "className": "org.joget.apps.userview.lib.InboxMenu",
-                "properties": {
-                    "appFilter": "process",
-                    "assignment-customFooter": "",
-                    "assignment-customHeader": "",
-                    "buttonPosition": "bottomLeft",
-                    "cacheAllLinks": "",
-                    "customId": "",
-                    "enableOffline": "",
-                    "id": "C68A249180E14AA2906D23AB9D2E8E17",
-                    "label": "<i class=\"fas fa-inbox\"><\/i> Inbox",
-                    "list-customFooter": "",
-                    "list-customHeader": "",
-                    "processId": "process1",
-                    "rowCount": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            }],
-            "properties": {
-                "comment": "",
-                "hide": "yes",
-                "id": "category-B708435DC5E24A35B301D7E89226BAF6",
-                "label": "Inbox",
-                "permission": {
-                    "className": "org.joget.apps.userview.lib.UserPermission",
-                    "properties": {
-                        "allowedUsernames": "admin;cat;clark;david;etta",
-                        "orgId": ""
-                    }
-                }
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "cancelButtonLabel": "Cancel",
-                    "customFooter": "",
-                    "customHeader": "",
-                    "customId": "loginPage",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "formId": "loginPage",
-                    "id": "370C34F86A0D45FE98F0CD05E3BB7024",
-                    "keyName": "",
-                    "label": "Login",
-                    "loadDataWithKey": "",
-                    "messageShowAfterComplete": "UAN number has been sent to your registered Email Id.",
-                    "paramName": "",
-                    "readonly": "",
-                    "readonlyLabel": "",
-                    "redirectTargetOnCancel": "window",
-                    "redirectTargetOnComplete": "",
-                    "redirectUrlAfterComplete": "applicationTrackingPage",
-                    "redirectUrlOnCancel": "loginPage",
-                    "showInPopupDialog": "",
-                    "submitButtonLabel": "Submit",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            }],
-            "properties": {
-                "comment": "",
-                "hide": "yes",
-                "id": "category-935F06CE654F4AA5A576F970655CC716",
-                "label": "Login",
-                "permission": {
-                    "className": "org.joget.apps.userview.lib.UserPermission",
-                    "properties": {
-                        "allowedUsernames": "admin",
-                        "orgId": ""
-                    }
-                }
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "cancelButtonLabel": "Cancel",
-                    "customFooter": "",
-                    "customHeader": "",
-                    "customId": "applicationTrackingPage",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "formId": "applicationTrackingPage",
-                    "id": "AA02D4B27842486FA441E4F638845C58",
-                    "keyName": "",
-                    "label": "Track Page",
-                    "loadDataWithKey": "",
-                    "messageShowAfterComplete": "Successfully Logged In",
-                    "paramName": "",
-                    "readonly": "",
-                    "readonlyLabel": "",
-                    "redirectTargetOnCancel": "top",
-                    "redirectTargetOnComplete": "",
-                    "redirectUrlAfterComplete": "personalDetails",
-                    "redirectUrlOnCancel": "applicationTrackingPage",
-                    "showInPopupDialog": "",
-                    "submitButtonLabel": "Submit",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            }],
-            "properties": {
-                "comment": "",
-                "hide": "yes",
-                "id": "category-F66EBC0BA55747208EEECE851C197185",
-                "label": "<i class=\"fas fa-file-contract\"><\/i>",
-                "permission": {
-                    "className": "org.joget.apps.userview.lib.UserPermission",
-                    "properties": {
-                        "allowedUsernames": "admin",
-                        "orgId": ""
-                    }
-                }
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
                 "className": "org.joget.apps.userview.lib.RunProcess",
                 "properties": {
                     "customId": "personalDetails",
@@ -162,8 +36,8 @@
                     "fieldPassoverMethod": "append",
                     "id": "EFEBD5EACB5A43EC82C21126302EF561",
                     "keyName": "",
-                    "label": "Personal Details",
-                    "messageShowAfterComplete": "Your application has been submitted.",
+                    "label": "Login",
+                    "messageShowAfterComplete": "",
                     "paramName": "",
                     "processDefId": "process1",
                     "redirectTarget": "",
