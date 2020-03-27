@@ -290,6 +290,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process2::process3_zonalrecovery</string>
+               <packageParticipant>
+                  <processDefId>process2</processDefId>
+                  <participantId>process3_zonalrecovery</participantId>
+                  <type>user</type>
+                  <value>david</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process2::process3_user</string>
                <packageParticipant>
                   <processDefId>process2</processDefId>
