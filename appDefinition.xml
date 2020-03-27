@@ -29,6 +29,17 @@
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
+            <entry>
+               <string>process1::appTrackPage</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>appTrackPage</activityDefId>
+                  <formId>applicationTrackingPage</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap>
