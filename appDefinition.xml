@@ -116,7 +116,7 @@
                   <formId>otsBcc</formId>
                   <type>SINGLE</type>
                   <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
@@ -225,7 +225,7 @@
                   <activityDefId>activity9</activityDefId>
                   <formId>otsZonal</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
