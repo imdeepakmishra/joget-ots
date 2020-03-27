@@ -120,6 +120,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process2::activity11</string>
+               <packageActivityForm>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>activity11</activityDefId>
+                  <formId>otsBcc</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::otsform</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
