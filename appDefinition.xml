@@ -265,7 +265,7 @@
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
                   <activityDefId>tool1</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginName>org.joget.apps.app.lib.DatabaseUpdateTool</pluginName>
                </packageActivityPlugin>
             </entry>
             <entry>
