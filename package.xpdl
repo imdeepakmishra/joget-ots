@@ -432,6 +432,16 @@
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="410,56"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Activity>
+                <xpdl:Activity Id="activity12" Name="Activity 12">
+                    <xpdl:Implementation>
+                        <xpdl:No/>
+                    </xpdl:Implementation>
+                    <xpdl:Performer>user</xpdl:Performer>
+                    <xpdl:ExtendedAttributes>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="user"/>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="300,124"/>
+                    </xpdl:ExtendedAttributes>
+                </xpdl:Activity>
             </xpdl:Activities>
             <xpdl:Transitions>
                 <xpdl:Transition From="otsform" Id="transition2" To="tool1" Name="">
@@ -610,12 +620,17 @@
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Transition>
-                <xpdl:Transition From="loginapage" Id="transition36" To="appTrackPage" Name="">
+                <xpdl:Transition From="appTrackPage" Id="transition37" To="otsform" Name="">
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Transition>
-                <xpdl:Transition From="appTrackPage" Id="transition37" To="otsform" Name="">
+                <xpdl:Transition From="activity12" Id="transition38" To="appTrackPage" Name="">
+                    <xpdl:ExtendedAttributes>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </xpdl:ExtendedAttributes>
+                </xpdl:Transition>
+                <xpdl:Transition From="loginapage" Id="transition36" To="activity12" Name="">
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </xpdl:ExtendedAttributes>
