@@ -23,7 +23,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>loginapage</activityDefId>
-                  <autoContinue>true</autoContinue>
+                  <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
