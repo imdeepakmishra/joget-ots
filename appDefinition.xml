@@ -352,6 +352,15 @@
                   <value>etta</value>
                </packageParticipant>
             </entry>
+            <entry>
+               <string>process2::process3_bcc</string>
+               <packageParticipant>
+                  <processDefId>process2</processDefId>
+                  <participantId>process3_bcc</participantId>
+                  <type>user</type>
+                  <value>etta</value>
+               </packageParticipant>
+            </entry>
          </packageParticipantMap>
       </packageDefinition>
    </packageDefinitionList>
