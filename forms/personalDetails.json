@@ -80,7 +80,7 @@
                                     "type": "custom"
                                 }
                             },
-                            "value": "",
+                            "value": "#form.t1.contact#",
                             "workflowVariable": ""
                         }
                     },
@@ -131,7 +131,7 @@
                                     "type": "email"
                                 }
                             },
-                            "value": "",
+                            "value": "#form.t1.email#",
                             "workflowVariable": ""
                         }
                     },
