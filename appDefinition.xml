@@ -65,6 +65,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process2::otsAtRecovery</string>
+               <packageActivityForm>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>otsAtRecovery</activityDefId>
+                  <formId>otsRecovery</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::appTrackPage</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
