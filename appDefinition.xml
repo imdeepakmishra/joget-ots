@@ -65,6 +65,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process2::appTrackPage</string>
+               <packageActivityForm>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>appTrackPage</activityDefId>
+                  <formId>applicationTrackingPage</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::loginapage</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
