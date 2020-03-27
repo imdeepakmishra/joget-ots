@@ -1,0 +1,14 @@
+<appDefinition>
+   <id>OneTimeSettlement</id>
+   <version>1</version>
+   <name>OTS</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+</appDefinition>
