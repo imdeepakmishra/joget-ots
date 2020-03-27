@@ -69,7 +69,7 @@
                   <activityDefId>activity11_1</activityDefId>
                   <formId>applicationTrackingPage</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
