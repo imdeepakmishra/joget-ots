@@ -97,6 +97,17 @@
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
+            <entry>
+               <string>process1::activity9</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity9</activityDefId>
+                  <formId>otsZonal</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap>
