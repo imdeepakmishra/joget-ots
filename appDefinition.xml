@@ -18,6 +18,15 @@
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
+            <entry>
+               <string>process1::loginapage</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>loginapage</activityDefId>
+                  <autoContinue>true</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap>
