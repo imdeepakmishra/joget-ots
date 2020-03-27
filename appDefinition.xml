@@ -1,0 +1,81 @@
+<appDefinition>
+   <appId>ots</appId>
+   <id>ots</id>
+   <version>1</version>
+   <name>One Time Settlement</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList>
+      <appResource>
+         <id>background.jpg</id>
+         <appId>ots</appId>
+         <appVersion>1</appVersion>
+         <filesize>564594</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>hero-image-2.jpg</id>
+         <appId>ots</appId>
+         <appVersion>1</appVersion>
+         <filesize>66787</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.hero-image-2.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;,&quot;properties&quot;:{}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>loan.png</id>
+         <appId>ots</appId>
+         <appVersion>1</appVersion>
+         <filesize>16169</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>logo_white.png</id>
+         <appId>ots</appId>
+         <appVersion>1</appVersion>
+         <filesize>7192</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>logo.jpg</id>
+         <appId>ots</appId>
+         <appVersion>1</appVersion>
+         <filesize>1885</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>myscript.js</id>
+         <appId>ots</appId>
+         <appVersion>1</appVersion>
+         <filesize>322</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.myscript.js#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;,&quot;properties&quot;:{}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>rupee.png</id>
+         <appId>ots</appId>
+         <appVersion>1</appVersion>
+         <filesize>30898</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>side-bar-image.png</id>
+         <appId>ots</appId>
+         <appVersion>1</appVersion>
+         <filesize>622516</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+   </resourceList>
+   <license>vfznDx/DoJN9aKaMo215Wqiv0nItzej4xkg9pWXuBvk5VQ7KDcvdQw==</license>
+</appDefinition>

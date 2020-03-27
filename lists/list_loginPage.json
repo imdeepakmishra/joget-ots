@@ -1,0 +1,77 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "loginPage"}
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "id": "column_0",
+            "label": "Applicant's Name",
+            "name": "applicant_name"
+        },
+        {
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "",
+                            "value": ""
+                        },
+                        {
+                            "grouping": "",
+                            "label": "India +91",
+                            "value": "India"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "America +1",
+                            "value": "America"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Sri Lanka +94",
+                            "value": "Sri Lanka"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            },
+            "id": "column_1",
+            "label": "Country",
+            "name": "country"
+        },
+        {
+            "id": "column_2",
+            "label": "Email Id",
+            "name": "email"
+        },
+        {
+            "id": "column_3",
+            "label": "ID",
+            "name": "id"
+        },
+        {
+            "id": "column_4",
+            "label": "Mobile No",
+            "name": "mobile"
+        }
+    ],
+    "filters": [],
+    "id": "list_loginPage",
+    "name": "List - Login",
+    "order": "",
+    "orderBy": "",
+    "pageSize": 0,
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}

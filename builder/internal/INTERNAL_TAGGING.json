@@ -1,0 +1,19 @@
+{
+    "datas": {
+        "form": {},
+        "list": {"list_loginPage": ["t01"]},
+        "userview": {}
+    },
+    "labels": {
+        "t01": {"color": "red"},
+        "t02": {"color": "pink"},
+        "t03": {"color": "orange"},
+        "t04": {"color": "yellow"},
+        "t05": {"color": "green"},
+        "t06": {"color": "lime"},
+        "t07": {"color": "blue"},
+        "t08": {"color": "sky"},
+        "t09": {"color": "purple"},
+        "t10": {"color": "black"}
+    }
+}
