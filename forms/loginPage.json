@@ -22,7 +22,7 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "mandatory": "true",
-                                "message": "Invalid A/C No.",
+                                "message": "* invalid a/c no.",
                                 "type": "alphanumeric"
                             }
                         },
@@ -50,7 +50,7 @@
                                 "custom-regex": "([A-Za-z])+( [A-Za-z]+)+( [A-Za-z]+)",
                                 "custom-regex-casesensitive": "true",
                                 "mandatory": "true",
-                                "message": "Invalid Applicant's Name",
+                                "message": "* invalid applicant name",
                                 "type": "custom"
                             }
                         },
@@ -125,7 +125,7 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "mandatory": "",
-                                "message": "Invalid Number",
+                                "message": "* invalid number",
                                 "type": "numeric"
                             }
                         },
