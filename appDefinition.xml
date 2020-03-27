@@ -74,6 +74,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process1::activity10_1</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity10_1</activityDefId>
+                  <autoContinue>true</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::activity11</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
