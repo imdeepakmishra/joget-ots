@@ -242,7 +242,7 @@
             "className": "org.joget.apps.app.lib.EmailTool",
             "properties": {
                 "bcc": "",
-                "cc": "adagatlam@nseit.com",
+                "cc": "deepakmishra3813@gmail.com",
                 "fields": [],
                 "files": [],
                 "formDefId": "",
@@ -251,7 +251,7 @@
                 "icsAttachement": "",
                 "isHtml": "true",
                 "message": "Dear Customer,\n\nYour UAN number is ABCD1234. <br>\n\nPlease call on 18002586161 to report if this login was not authorized by you. <br>\n\nWarm Regards, <br>\nNSEIT",
-                "password": "%%%%oBXpxvbaNws062rwd0TAha3EfmRBS5nT%%%%",
+                "password": "#deepak3813#",
                 "port": "587",
                 "security": "TLS",
                 "subject": "UAN Number",
