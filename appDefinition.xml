@@ -2,7 +2,36 @@
    <id>OneTimeSettlement</id>
    <version>1</version>
    <name>OTS</name>
-   <packageDefinitionList/>
+   <packageDefinitionList>
+      <packageDefinition>
+         <appId>OneTimeSettlement</appId>
+         <id>OneTimeSettlement</id>
+         <version>1</version>
+         <name>OTS</name>
+         <packageActivityFormMap/>
+         <packageActivityPluginMap/>
+         <packageParticipantMap>
+            <entry>
+               <string>process1::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process2::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process2</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+         </packageParticipantMap>
+      </packageDefinition>
+   </packageDefinitionList>
    <formDefinitionList/>
    <userviewDefinitionList/>
    <datalistDefinitionList/>
@@ -10,5 +39,14 @@
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
    <messageList/>
-   <resourceList/>
+   <resourceList>
+      <appResource>
+         <id>homescreen-icon.png</id>
+         <appId>OneTimeSettlement</appId>
+         <appVersion>1</appVersion>
+         <filesize>79616</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+   </resourceList>
 </appDefinition>
