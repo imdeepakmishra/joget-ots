@@ -399,7 +399,7 @@
                     <xpdl:Performer>bcc</xpdl:Performer>
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="bcc"/>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="642,103.96667350585938"/>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="641,99.953125"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Activity>
                 <xpdl:Activity Id="tool13" Name="Maker Approved at BCC">
@@ -409,7 +409,7 @@
                     <xpdl:Performer>bcc</xpdl:Performer>
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="bcc"/>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="344,96.38333"/>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="346,87.375"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Activity>
                 <xpdl:Activity Id="loginapage" Name="Login Page">
@@ -440,6 +440,26 @@
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="user"/>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="251,130"/>
+                    </xpdl:ExtendedAttributes>
+                </xpdl:Activity>
+                <xpdl:Activity Id="emailReject" Name="Email Rejection">
+                    <xpdl:Implementation>
+                        <xpdl:Tool Id="default_application"/>
+                    </xpdl:Implementation>
+                    <xpdl:Performer>bcc</xpdl:Performer>
+                    <xpdl:ExtendedAttributes>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="bcc"/>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="813,129.328125"/>
+                    </xpdl:ExtendedAttributes>
+                </xpdl:Activity>
+                <xpdl:Activity Id="emailApproval" Name="Email Approval">
+                    <xpdl:Implementation>
+                        <xpdl:Tool Id="default_application"/>
+                    </xpdl:Implementation>
+                    <xpdl:Performer>bcc</xpdl:Performer>
+                    <xpdl:ExtendedAttributes>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="bcc"/>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="205,132.328125"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Activity>
             </xpdl:Activities>
@@ -635,15 +655,25 @@
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Transition>
+                <xpdl:Transition From="tool12" Id="transition39" To="emailReject" Name="">
+                    <xpdl:ExtendedAttributes>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </xpdl:ExtendedAttributes>
+                </xpdl:Transition>
+                <xpdl:Transition From="tool13" Id="transition40" To="emailApproval" Name="">
+                    <xpdl:ExtendedAttributes>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </xpdl:ExtendedAttributes>
+                </xpdl:Transition>
             </xpdl:Transitions>
             <xpdl:ExtendedAttributes>
                 <xpdl:ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="user;recovery;regionalrecovery;zonalrecovery;bcc"/>
                 <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=recovery,CONNECTING_ACTIVITY_ID=tool3,X_OFFSET=1209,Y_OFFSET=56,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=regionalrecovery,CONNECTING_ACTIVITY_ID=tool5,X_OFFSET=1047,Y_OFFSET=37,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=zonalrecovery,CONNECTING_ACTIVITY_ID=tool9,X_OFFSET=1132,Y_OFFSET=55,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=bcc,CONNECTING_ACTIVITY_ID=tool12,X_OFFSET=982,Y_OFFSET=92,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=bcc,CONNECTING_ACTIVITY_ID=tool13,X_OFFSET=196,Y_OFFSET=112,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <xpdl:ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=user,CONNECTING_ACTIVITY_ID=loginapage,X_OFFSET=84,Y_OFFSET=28,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=bcc,CONNECTING_ACTIVITY_ID=emailReject,X_OFFSET=1089,Y_OFFSET=80,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=bcc,CONNECTING_ACTIVITY_ID=emailApproval,X_OFFSET=88,Y_OFFSET=87,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </xpdl:ExtendedAttributes>
         </xpdl:WorkflowProcess>
         <xpdl:WorkflowProcess Id="process2" Name="OTS Track Process">
