@@ -151,6 +151,15 @@
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
+            <entry>
+               <string>process1::user</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>user</participantId>
+                  <type>user</type>
+                  <value>admin</value>
+               </packageParticipant>
+            </entry>
          </packageParticipantMap>
       </packageDefinition>
    </packageDefinitionList>
