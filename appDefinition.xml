@@ -14,10 +14,8 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>otsform</activityDefId>
-                  <formId>login</formId>
-                  <type>SINGLE</type>
                   <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
          </packageActivityFormMap>
