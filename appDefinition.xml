@@ -186,6 +186,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process2::activity8</string>
+               <packageActivityForm>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>activity8</activityDefId>
+                  <formId>otsRegional</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process2::otsform</string>
                <packageActivityForm>
                   <processDefId>process2</processDefId>
