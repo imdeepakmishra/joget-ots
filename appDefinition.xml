@@ -47,10 +47,10 @@
                <packageActivityForm>
                   <processDefId>process2</processDefId>
                   <activityDefId>otsFormResubmitted</activityDefId>
-                  <formId>personalDetails</formId>
+                  <formId>otsRecovery</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
