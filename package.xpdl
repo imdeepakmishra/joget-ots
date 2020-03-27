@@ -662,39 +662,9 @@
                         <xpdl:No/>
                     </xpdl:Implementation>
                     <xpdl:Performer>process3_user</xpdl:Performer>
-                    <xpdl:TransitionRestrictions>
-                        <xpdl:TransitionRestriction>
-                            <xpdl:Split Type="AND">
-                                <xpdl:TransitionRefs>
-                                    <xpdl:TransitionRef Id="transition2"/>
-                                    <xpdl:TransitionRef Id="transition35"/>
-                                </xpdl:TransitionRefs>
-                            </xpdl:Split>
-                        </xpdl:TransitionRestriction>
-                    </xpdl:TransitionRestrictions>
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process3_user"/>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="650,39.875"/>
-                    </xpdl:ExtendedAttributes>
-                </xpdl:Activity>
-                <xpdl:Activity Id="otsformresubmitted" Name="OTS Form Resubmitted">
-                    <xpdl:Implementation>
-                        <xpdl:No/>
-                    </xpdl:Implementation>
-                    <xpdl:Performer>process3_user</xpdl:Performer>
-                    <xpdl:TransitionRestrictions>
-                        <xpdl:TransitionRestriction>
-                            <xpdl:Join Type="XOR">
-                                <xpdl:TransitionRefs>
-                                    <xpdl:TransitionRef Id="transition7"/>
-                                    <xpdl:TransitionRef Id="transition35"/>
-                                </xpdl:TransitionRefs>
-                            </xpdl:Join>
-                        </xpdl:TransitionRestriction>
-                    </xpdl:TransitionRestrictions>
-                    <xpdl:ExtendedAttributes>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process3_user"/>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="890,38.88333"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Activity>
                 <xpdl:Activity Id="tool1" Name="Status = Submitted">
@@ -717,7 +687,6 @@
                             <xpdl:Join Type="XOR">
                                 <xpdl:TransitionRefs>
                                     <xpdl:TransitionRef Id="transition3"/>
-                                    <xpdl:TransitionRef Id="transition8"/>
                                 </xpdl:TransitionRefs>
                             </xpdl:Join>
                         </xpdl:TransitionRestriction>
@@ -734,7 +703,6 @@
                         <xpdl:TransitionRestriction>
                             <xpdl:Split Type="XOR">
                                 <xpdl:TransitionRefs>
-                                    <xpdl:TransitionRef Id="transition5"/>
                                     <xpdl:TransitionRef Id="transition9"/>
                                     <xpdl:TransitionRef Id="transition10"/>
                                 </xpdl:TransitionRefs>
@@ -744,16 +712,6 @@
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process3_recovery"/>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="729,16.5333544140625"/>
-                    </xpdl:ExtendedAttributes>
-                </xpdl:Activity>
-                <xpdl:Activity Id="tool2" Name="Notify Query to user">
-                    <xpdl:Implementation>
-                        <xpdl:Tool Id="default_application"/>
-                    </xpdl:Implementation>
-                    <xpdl:Performer>process3_recovery</xpdl:Performer>
-                    <xpdl:ExtendedAttributes>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process3_recovery"/>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="923,18.30001701171875"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Activity>
                 <xpdl:Activity Id="tool3" Name="Notify Rejected">
@@ -1040,23 +998,6 @@
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Transition>
-                <xpdl:Transition From="route1" Id="transition5" To="tool2" Name="">
-                    <xpdl:Condition Type="CONDITION">status === 'Query'</xpdl:Condition>
-                    <xpdl:ExtendedAttributes>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <xpdl:ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;Query&quot;}]"/>
-                    </xpdl:ExtendedAttributes>
-                </xpdl:Transition>
-                <xpdl:Transition From="tool2" Id="transition7" To="otsformresubmitted" Name="">
-                    <xpdl:ExtendedAttributes>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </xpdl:ExtendedAttributes>
-                </xpdl:Transition>
-                <xpdl:Transition From="otsformresubmitted" Id="transition8" To="activity5" Name="">
-                    <xpdl:ExtendedAttributes>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </xpdl:ExtendedAttributes>
-                </xpdl:Transition>
                 <xpdl:Transition From="route1" Id="transition9" To="tool3" Name="">
                     <xpdl:Condition Type="CONDITION">status === 'Rejected'</xpdl:Condition>
                     <xpdl:ExtendedAttributes>
@@ -1196,11 +1137,6 @@
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Transition>
-                <xpdl:Transition From="otsform" Id="transition35" To="otsformresubmitted" Name="">
-                    <xpdl:ExtendedAttributes>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </xpdl:ExtendedAttributes>
-                </xpdl:Transition>
                 <xpdl:Transition From="appTrackPage" Id="transition37" To="otsform" Name="">
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
@@ -1215,6 +1151,7 @@
                 <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process3_bcc,CONNECTING_ACTIVITY_ID=tool12,X_OFFSET=982,Y_OFFSET=92,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process3_bcc,CONNECTING_ACTIVITY_ID=tool13,X_OFFSET=196,Y_OFFSET=112,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <xpdl:ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process3_user,CONNECTING_ACTIVITY_ID=appTrackPage,X_OFFSET=154,Y_OFFSET=70,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <xpdl:ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process3_user,CONNECTING_ACTIVITY_ID=otsform,X_OFFSET=882,Y_OFFSET=54,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </xpdl:ExtendedAttributes>
         </xpdl:WorkflowProcess>
     </xpdl:WorkflowProcesses>

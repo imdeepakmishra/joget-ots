@@ -6,7 +6,7 @@
       <packageDefinition>
          <appId>OneTimeSettlement</appId>
          <id>OneTimeSettlement</id>
-         <version>8</version>
+         <version>9</version>
          <name>OTS</name>
          <packageActivityFormMap>
             <entry>
@@ -47,17 +47,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>activity5</activityDefId>
-                  <formId>otsRecovery</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process2::otsformresubmitted</string>
-               <packageActivityForm>
-                  <processDefId>process2</processDefId>
-                  <activityDefId>otsformresubmitted</activityDefId>
                   <formId>otsRecovery</formId>
                   <type>SINGLE</type>
                   <autoContinue>true</autoContinue>
