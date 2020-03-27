@@ -214,7 +214,7 @@
                   <activityDefId>activity8</activityDefId>
                   <formId>otsZonal</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
