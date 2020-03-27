@@ -16,7 +16,7 @@
                   <activityDefId>otsform</activityDefId>
                   <formId>login</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
