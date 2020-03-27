@@ -6,7 +6,7 @@
       <packageDefinition>
          <appId>ots</appId>
          <id>ots</id>
-         <version>1</version>
+         <version>2</version>
          <name>One Time Settlement</name>
          <packageActivityFormMap>
             <entry>
