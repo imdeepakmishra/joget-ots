@@ -17,28 +17,6 @@
             {
                 "className": "org.joget.apps.userview.lib.RunProcess",
                 "properties": {
-                    "customId": "appTrack",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "id": "CB7CA105F71148A99D9136DCAEF9D260",
-                    "keyName": "",
-                    "label": "App Track Page",
-                    "messageShowAfterComplete": "Your application has been submitted.",
-                    "paramName": "",
-                    "processDefId": "process2",
-                    "redirectTarget": "",
-                    "redirectUrlAfterComplete": "",
-                    "runProcessDirectly": "Yes",
-                    "runProcessSubmitLabel": "Submit",
-                    "showInPopupDialog": "Yes",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            },
-            {
-                "className": "org.joget.apps.userview.lib.RunProcess",
-                "properties": {
                     "customId": "loginPage",
                     "enableOffline": "",
                     "fieldPassover": "",
@@ -54,6 +32,28 @@
                     "runProcessDirectly": "Yes",
                     "runProcessSubmitLabel": "Submit",
                     "showInPopupDialog": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.RunProcess",
+                "properties": {
+                    "customId": "appTrack",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "id": "CB7CA105F71148A99D9136DCAEF9D260",
+                    "keyName": "",
+                    "label": "App Track Page",
+                    "messageShowAfterComplete": "Your application has been submitted.",
+                    "paramName": "",
+                    "processDefId": "process1",
+                    "redirectTarget": "",
+                    "redirectUrlAfterComplete": "",
+                    "runProcessDirectly": "Yes",
+                    "runProcessSubmitLabel": "Submit",
+                    "showInPopupDialog": "Yes",
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": ""
                 }
