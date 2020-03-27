@@ -243,6 +243,14 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
+               <string>process1::emailReject</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>emailReject</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.EmailTool</pluginName>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process1::tool14</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
