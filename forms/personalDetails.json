@@ -695,15 +695,6 @@
                             }
                         },
                         {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
-                            "properties": {
-                                "autoPopulate": "",
-                                "id": "field28",
-                                "label": "",
-                                "value": "<p>\r\n    <span style='color: red, margin-left: 15px'>\r\n    Mention the date on or before which you will make the payment.\r\n    <\/span>\r\n<\/p>"
-                            }
-                        },
-                        {
                             "className": "org.joget.apps.form.lib.TextField",
                             "properties": {
                                 "id": "loanAmount",
