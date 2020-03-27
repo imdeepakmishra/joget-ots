@@ -142,6 +142,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process2::activity5</string>
+               <packageActivityForm>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>activity5</activityDefId>
+                  <formId>otsRecovery</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::otsformresubmitted</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
