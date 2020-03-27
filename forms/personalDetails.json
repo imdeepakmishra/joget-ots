@@ -604,7 +604,7 @@
                     {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
-                            "id": "npa",
+                            "id": "loanAcNo",
                             "label": "Loan A/C No.",
                             "maxlength": "12",
                             "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
@@ -622,7 +622,7 @@
                                     "type": "alphanumeric"
                                 }
                             },
-                            "value": "",
+                            "value": "#form.t1.npa#",
                             "workflowVariable": ""
                         }
                     },
