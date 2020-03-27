@@ -72,5 +72,13 @@
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
+      <appResource>
+         <id>side-bar-image.png</id>
+         <appId>OneTimeSettlement</appId>
+         <appVersion>1</appVersion>
+         <filesize>622516</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
    </resourceList>
 </appDefinition>
