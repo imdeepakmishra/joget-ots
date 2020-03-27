@@ -104,8 +104,8 @@
                   <activityDefId>otsForm</activityDefId>
                   <formId>personalDetails</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
+                  <autoContinue>true</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
