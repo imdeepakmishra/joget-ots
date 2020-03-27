@@ -171,21 +171,21 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process2::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process2</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>process2::process3_user</string>
                <packageParticipant>
                   <processDefId>process2</processDefId>
                   <participantId>process3_user</participantId>
                   <type>user</type>
                   <value>admin</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process2::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process2</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -204,6 +204,15 @@
                   <participantId>user</participantId>
                   <type>user</type>
                   <value>admin</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process2::process3_recovery</string>
+               <packageParticipant>
+                  <processDefId>process2</processDefId>
+                  <participantId>process3_recovery</participantId>
+                  <type>user</type>
+                  <value>cat</value>
                </packageParticipant>
             </entry>
             <entry>
