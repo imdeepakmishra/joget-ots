@@ -42,6 +42,17 @@
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
+            <entry>
+               <string>process1::otsformresubmitted</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>otsformresubmitted</activityDefId>
+                  <formId>otsRecovery</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap>
