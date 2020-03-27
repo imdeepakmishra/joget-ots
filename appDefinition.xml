@@ -193,7 +193,14 @@
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
-   <messageList/>
+   <messageList>
+      <message>
+         <id>tooltip.personaldetails.loanissueddate_en_us</id>
+         <messageKey>tooltip.personalDetails.loanIssuedDate</messageKey>
+         <locale>en_US</locale>
+         <message>Mention the date on or before which you will make the payment.</message>
+      </message>
+   </messageList>
    <resourceList>
       <appResource>
          <id>background.jpg</id>
