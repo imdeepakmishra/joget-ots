@@ -203,7 +203,7 @@
                   <activityDefId>activity7</activityDefId>
                   <formId>otsRegional</formId>
                   <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
+                  <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
