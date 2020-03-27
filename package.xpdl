@@ -432,16 +432,6 @@
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="411,96"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Activity>
-                <xpdl:Activity Id="tool14" Name="Email">
-                    <xpdl:Implementation>
-                        <xpdl:Tool Id="default_application"/>
-                    </xpdl:Implementation>
-                    <xpdl:Performer>user</xpdl:Performer>
-                    <xpdl:ExtendedAttributes>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="user"/>
-                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="251,130"/>
-                    </xpdl:ExtendedAttributes>
-                </xpdl:Activity>
                 <xpdl:Activity Id="emailReject" Name="Email Rejection">
                     <xpdl:Implementation>
                         <xpdl:Tool Id="default_application"/>
@@ -460,6 +450,16 @@
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="bcc"/>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="205,132.328125"/>
+                    </xpdl:ExtendedAttributes>
+                </xpdl:Activity>
+                <xpdl:Activity Id="emailUAN" Name="Email UAN">
+                    <xpdl:Implementation>
+                        <xpdl:Tool Id="default_application"/>
+                    </xpdl:Implementation>
+                    <xpdl:Performer>user</xpdl:Performer>
+                    <xpdl:ExtendedAttributes>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="user"/>
+                        <xpdl:ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="251,130"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Activity>
             </xpdl:Activities>
@@ -645,12 +645,12 @@
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Transition>
-                <xpdl:Transition From="loginapage" Id="transition36" To="tool14" Name="">
+                <xpdl:Transition From="loginapage" Id="transition36" To="emailUAN" Name="">
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </xpdl:ExtendedAttributes>
                 </xpdl:Transition>
-                <xpdl:Transition From="tool14" Id="transition38" To="appTrackPage" Name="">
+                <xpdl:Transition From="emailUAN" Id="transition38" To="appTrackPage" Name="">
                     <xpdl:ExtendedAttributes>
                         <xpdl:ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </xpdl:ExtendedAttributes>
