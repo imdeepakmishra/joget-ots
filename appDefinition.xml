@@ -8,7 +8,19 @@
          <id>OneTimeSettlement</id>
          <version>2</version>
          <name>OTS</name>
-         <packageActivityFormMap/>
+         <packageActivityFormMap>
+            <entry>
+               <string>process1::otsform</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>otsform</activityDefId>
+                  <formId>login</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+         </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap>
             <entry>
