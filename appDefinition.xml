@@ -91,7 +91,7 @@
                <packageActivityForm>
                   <processDefId>process2</processDefId>
                   <activityDefId>otsForm</activityDefId>
-                  <formId>login</formId>
+                  <formId>personalDetails</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
