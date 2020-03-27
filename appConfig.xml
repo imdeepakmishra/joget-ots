@@ -1,5 +1,4 @@
 <appDefinition>
-   <appId>ots</appId>
    <id>ots</id>
    <version>1</version>
    <name>One Time Settlement</name>
