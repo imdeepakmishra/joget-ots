@@ -272,6 +272,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process2::process3_regionalrecovery</string>
+               <packageParticipant>
+                  <processDefId>process2</processDefId>
+                  <participantId>process3_regionalrecovery</participantId>
+                  <type>user</type>
+                  <value>clark</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process1::recovery</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
