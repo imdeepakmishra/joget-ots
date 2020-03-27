@@ -48,7 +48,7 @@
                     "label": "App Track Page",
                     "messageShowAfterComplete": "Your application has been submitted.",
                     "paramName": "",
-                    "processDefId": "process1",
+                    "processDefId": "process2",
                     "redirectTarget": "",
                     "redirectUrlAfterComplete": "",
                     "runProcessDirectly": "Yes",
