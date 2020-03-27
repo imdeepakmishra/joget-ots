@@ -148,7 +148,7 @@
                   <activityDefId>activity11</activityDefId>
                   <formId>otsBcc</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
