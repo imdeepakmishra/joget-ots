@@ -278,6 +278,14 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>process2::emailApproval</string>
+               <packageActivityPlugin>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>emailApproval</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.EmailTool</pluginName>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process1::emailUAN</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
