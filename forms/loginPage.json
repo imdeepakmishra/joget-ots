@@ -4,12 +4,217 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [],
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "npa",
+                        "label": "Loan A/C No",
+                        "maxlength": "12",
+                        "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Invalid A/C No.",
+                                "type": "alphanumeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "applicant_name",
+                        "label": "Applicant's Name",
+                        "maxlength": "",
+                        "permissionHidden": "",
+                        "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+                        "placeholder": "&nbsp Firstname  Middlename  Lastname",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "27",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "custom-regex": "([A-Za-z])+( [A-Za-z]+)+( [A-Za-z]+)",
+                                "custom-regex-casesensitive": "true",
+                                "mandatory": "true",
+                                "message": "Invalid Applicant's Name",
+                                "type": "custom"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "country",
+                        "label": "Country",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "",
+                                "value": ""
+                            },
+                            {
+                                "grouping": "",
+                                "label": "India +91",
+                                "value": "India"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "America +1",
+                                "value": "America"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Sri Lanka +94",
+                                "value": "Sri Lanka"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "permissionHidden": "",
+                        "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "mobile",
+                        "label": "Mobile No",
+                        "maxlength": "10",
+                        "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "true",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "",
+                                "message": "Invalid Number",
+                                "type": "numeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "email",
+                        "label": "Email Id",
+                        "maxlength": "",
+                        "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "25",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Invalid Email",
+                                "type": "email"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.PasswordField",
+                    "properties": {
+                        "id": "password",
+                        "label": "Password",
+                        "maxlength": "8",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Invalid Password Type",
+                                "type": "alphanumeric"
+                            }
+                        },
+                        "value": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field6",
+                        "label": "",
+                        "value": ""
+                    }
+                }
+            ],
             "properties": {"width": "100%"}
         }],
         "properties": {
-            "id": "section1",
-            "label": "Section"
+            "comment": "",
+            "id": "login",
+            "join": "",
+            "label": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "permission_rules": {"a0986f2d-9774-76b7-f4e9-433505e8d12e": {}},
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
     }],
     "properties": {
@@ -44,12 +249,12 @@
                 "from": "gaminbot3813@gmail.com",
                 "host": "smtp.gmail.com",
                 "icsAttachement": "",
-                "isHtml": "",
-                "message": "Dear Customer,\n\nYour UAN number is abcd1234.\n\nPlease call on 18002586161 to report if this login was not authorized by you.\n\nWarm Regards,\nNSEIT",
+                "isHtml": "true",
+                "message": "Dear Customer,\n\nYour UAN number is ABCD1234. <br>\n\nPlease call on 18002586161 to report if this login was not authorized by you. <br>\n\nWarm Regards, <br>\nNSEIT",
                 "password": "%%%%oBXpxvbaNws062rwd0TAha3EfmRBS5nT%%%%",
                 "port": "587",
                 "security": "TLS",
-                "subject": "OTP",
+                "subject": "UAN Number",
                 "toParticipantId": "",
                 "toSpecific": "deepakm@nseit.com",
                 "username": "gaminbot3813@gmail.com"
