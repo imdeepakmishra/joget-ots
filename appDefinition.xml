@@ -63,6 +63,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process1::activity11_1</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity11_1</activityDefId>
+                  <formId>applicationTrackingPage</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::activity10_1</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
