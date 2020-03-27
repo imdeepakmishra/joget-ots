@@ -4,80 +4,12 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "uanNo",
-                        "label": "UAN No.",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "custom-regex": "^(ABCD1234)",
-                                "custom-regex-casesensitive": "true",
-                                "mandatory": "true",
-                                "message": "Invalid Password",
-                                "type": "custom"
-                            }
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.PasswordField",
-                    "properties": {
-                        "id": "field7",
-                        "label": "Password",
-                        "maxlength": "8",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "validator": {
-                            "className": "org.joget.plugin.enterprise.PasswordValidator",
-                            "properties": {
-                                "confirmPasswordField": "password",
-                                "mandatory": "true"
-                            }
-                        },
-                        "value": "%%%%0HgGRDNDNgnx1wohdh6g/g==%%%%"
-                    }
-                }
-            ],
+            "elements": [],
             "properties": {"width": "100%"}
         }],
         "properties": {
-            "comment": "",
-            "id": "appTrackPage",
-            "join": "",
-            "label": "Application Tracking Page",
-            "loadBinder": {
-                "className": "",
-                "properties": {}
-            },
-            "permission": {
-                "className": "",
-                "properties": {}
-            },
-            "permissionReadonly": "",
-            "readonly": "",
-            "readonlyLabel": "",
-            "regex": "",
-            "reverse": "",
-            "storeBinder": {
-                "className": "",
-                "properties": {}
-            },
-            "visibilityControl": "",
-            "visibilityValue": ""
+            "id": "section1",
+            "label": "Section"
         }
     }],
     "properties": {
