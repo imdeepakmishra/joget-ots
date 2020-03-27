@@ -10,6 +10,17 @@
          <name>OTS</name>
          <packageActivityFormMap>
             <entry>
+               <string>process1::activity5</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity5</activityDefId>
+                  <formId>otsRecovery</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::otsform</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
