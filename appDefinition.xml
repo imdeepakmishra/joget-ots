@@ -58,7 +58,7 @@
                <packageActivityForm>
                   <processDefId>process2</processDefId>
                   <activityDefId>otsformresubmitted</activityDefId>
-                  <formId>personalDetails</formId>
+                  <formId>otsRecovery</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -197,22 +197,22 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process2::otsform</string>
+               <string>process2::activity9</string>
                <packageActivityForm>
                   <processDefId>process2</processDefId>
-                  <activityDefId>otsform</activityDefId>
-                  <formId>personalDetails</formId>
+                  <activityDefId>activity9</activityDefId>
+                  <formId>otsZonal</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process2::activity9</string>
+               <string>process2::otsform</string>
                <packageActivityForm>
                   <processDefId>process2</processDefId>
-                  <activityDefId>activity9</activityDefId>
-                  <formId>otsZonal</formId>
+                  <activityDefId>otsform</activityDefId>
+                  <formId>personalDetails</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
