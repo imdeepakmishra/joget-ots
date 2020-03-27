@@ -193,14 +193,7 @@
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
-   <messageList>
-      <message>
-         <id>tooltip.loginpage.npa_en_us</id>
-         <messageKey>tooltip.loginPage.npa</messageKey>
-         <locale>en_US</locale>
-         <message>Enter your name</message>
-      </message>
-   </messageList>
+   <messageList/>
    <resourceList>
       <appResource>
          <id>background.jpg</id>
