@@ -36,7 +36,7 @@
                   <activityDefId>appTrackPage</activityDefId>
                   <formId>applicationTrackingPage</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
