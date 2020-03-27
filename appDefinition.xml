@@ -190,7 +190,7 @@
                <packageActivityForm>
                   <processDefId>process2</processDefId>
                   <activityDefId>activity8</activityDefId>
-                  <formId>otsRegional</formId>
+                  <formId>otsZonal</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
