@@ -51,7 +51,7 @@
                     "processDefId": "process2",
                     "redirectTarget": "",
                     "redirectUrlAfterComplete": "",
-                    "runProcessDirectly": "Yes",
+                    "runProcessDirectly": "",
                     "runProcessSubmitLabel": "Submit",
                     "showInPopupDialog": "Yes",
                     "userviewCacheDuration": "20",
