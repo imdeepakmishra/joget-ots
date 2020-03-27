@@ -187,6 +187,15 @@
                   <value>admin</value>
                </packageParticipant>
             </entry>
+            <entry>
+               <string>process1::bcc</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>bcc</participantId>
+                  <type>user</type>
+                  <value>etta</value>
+               </packageParticipant>
+            </entry>
          </packageParticipantMap>
       </packageDefinition>
    </packageDefinitionList>
