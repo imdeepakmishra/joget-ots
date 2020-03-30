@@ -6,8 +6,8 @@
       <packageDefinition>
          <appId>ots</appId>
          <id>ots</id>
-         <version>2</version>
-         <name>One Time Settlement</name>
+         <version>1</version>
+         <name>One Time Settlement </name>
          <packageActivityFormMap>
             <entry>
                <string>process1::activity8</string>
@@ -59,28 +59,6 @@
                   <formId>otsrecovery</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process1::activity11_1</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>activity11_1</activityDefId>
-                  <formId>applicationTrackingPage</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process1::activity10_1</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>activity10_1</activityDefId>
-                  <formId>loginPage</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
@@ -215,16 +193,7 @@
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
-   <messageList>
-      <message>
-         <id>tooltip.personalDetails.loanIssuedDate_en_US</id>
-         <appId>ots</appId>
-         <appVersion>1</appVersion>
-         <messageKey>tooltip.personalDetails.loanIssuedDate</messageKey>
-         <locale>en_US</locale>
-         <message>Mention the date on or before which you will make the payment.</message>
-      </message>
-   </messageList>
+   <messageList/>
    <resourceList>
       <appResource>
          <id>background.jpg</id>
