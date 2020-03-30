@@ -119,7 +119,6 @@
             "className": "",
             "properties": {}
         },
-        "tempDisablePermissionChecking": "",
         "theme": {
             "className": "org.joget.plugin.enterprise.XadminTheme",
             "properties": {
